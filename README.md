@@ -2,6 +2,8 @@
 
 Looks at your meshes and generates **VRChat PhysBone colliders** (spheres and capsules) that follow the shape of your avatar or model. Works on humanoid avatars and on anything else with a mesh.
 
+![The Auto PhysBone Colliders window next to the Scene view, previewing green capsules and blue spheres fitted to an avatar's head, torso, arms and legs](Documentation~/images/preview-and-window.png)
+
 **Menu:** `Tools > Digi The Robot > Auto PhysBone Colliders`, or right-click an object in the Hierarchy and choose `Digi The Robot > Auto PhysBone Colliders`.
 
 ## Quick start
@@ -13,6 +15,21 @@ Looks at your meshes and generates **VRChat PhysBone colliders** (spheres and ca
 5. Click **Generate**.
 
 Colliders are created under a `PhysBone Colliders (Auto)` object on the avatar root. Each one points at its bone through **Root Transform**, so your armature isn't touched. Generating again replaces the old set, and any PhysBones that used the old colliders get re-linked by name. Everything can be undone with Ctrl+Z.
+
+<table>
+  <tr>
+    <td><img src="Documentation~/images/generated.png" alt="The window after clicking Generate, showing a 'Created 17 colliders' notification"></td>
+    <td width="30%"><img src="Documentation~/images/hierarchy.png" alt="Hierarchy with a PhysBone Colliders (Auto) object holding one PBC object per bone, from PBC Hips to PBC Right Foot"></td>
+  </tr>
+  <tr>
+    <td>After <b>Generate</b></td>
+    <td>The generated colliders in the Hierarchy</td>
+  </tr>
+</table>
+
+It adapts to different body shapes, like this bunny avatar with long ears and a baggy hoodie:
+
+<img src="Documentation~/images/bunny-avatar.png" width="420" alt="A bunny avatar in an orange hoodie with capsule colliders fitted along its arms, torso and legs">
 
 ## Parts list
 
