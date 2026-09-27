@@ -45,6 +45,8 @@ Every bone (or loose mesh object) that owns vertices shows up as a part:
 
 The number box next to a collider part **splits** it into that many shapes (k-means over the part's enclosed volume). This is the main tool for non-humanoid props and creatures.
 
+![A non-humanoid model lying on its side with three blue sphere colliders spread along its body. The Parts list shows its single bone set to Auto with 3 in the split box.](Documentation~/images/non-humanoid-split.png)
+
 Default modes:
 
 - **PhysBone-driven bones** (hair, tails, skirts) are skipped automatically.
