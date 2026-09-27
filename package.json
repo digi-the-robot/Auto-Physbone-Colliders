@@ -1,0 +1,21 @@
+{
+  "name": "com.digi.auto-physbone-colliders",
+  "displayName": "Auto PhysBone Colliders",
+  "version": "1.0.0",
+  "unity": "2019.4",
+  "description": "Generates VRChat PhysBone colliders (spheres and capsules) that follow the shape of your meshes. Works with humanoid and non-humanoid models and any VRChat SDK that includes PhysBones.",
+  "license": "MIT",
+  "documentationUrl": "https://github.com/digi-the-robot/Auto-Physbone-Colliders#readme",
+  "changelogUrl": "https://github.com/digi-the-robot/Auto-Physbone-Colliders/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/digi-the-robot/Auto-Physbone-Colliders/blob/main/LICENSE",
+  "author": {
+    "name": "Digi The Robot",
+    "url": "https://github.com/digi-the-robot"
+  },
+  "keywords": [
+    "vrchat",
+    "physbones",
+    "colliders",
+    "avatar"
+  ]
+}
