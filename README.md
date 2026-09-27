@@ -47,6 +47,10 @@ The number box next to a collider part **splits** it into that many shapes (k-me
 
 ![A non-humanoid model lying on its side with three blue sphere colliders spread along its body. The Parts list shows its single bone set to Auto with 3 in the split box.](Documentation~/images/non-humanoid-split.png)
 
+Rigged props get a shape for each bone, like this charm on a chain: a sphere for every link, and capsules for the star and the flat base.
+
+<img src="Documentation~/images/rigged-prop.png" width="420" alt="A rigged charm prop: a star on a chain of links above a flat pink piece. Each chain link has a blue sphere collider, and the star and the flat piece each have a green capsule.">
+
 Default modes:
 
 - **PhysBone-driven bones** (hair, tails, skirts) are skipped automatically.
